@@ -11,6 +11,7 @@
 	<groupId>com.agent_srv</groupId>
 	<artifactId>transfer_services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>Agent_services</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -112,7 +113,11 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>-->
-
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>9.4.1.jre11</version>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
